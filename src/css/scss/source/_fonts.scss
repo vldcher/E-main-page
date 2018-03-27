@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "MuseoSlab";
+    // src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+    src: url("/fonts/Museo/MuseoSlab/MuseoSlab-300.eot");
+	src: url("/fonts/Museo/MuseoSlab/MuseoSlab-300.eot?#iefix") format("embedded-opentype"),
+			 url("/fonts/Museo/MuseoSlab/MuseoSlab-300.woff") format("woff"),
+			 url("/fonts/Museo/MuseoSlab/MuseoSlab-300.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "SourceSansPro";
+    src: url("/fonts/SourceSansPro/SourceSansProRegular/SourceSansPro-Regular.eot");
+	src: url("/fonts/SourceSansPro/SourceSansProRegular/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
+			 url("/fonts/SourceSansPro/SourceSansProRegular/SourceSansPro-Regular.woff") format("woff"),
+			 url("/fonts/SourceSansPro/SourceSansProRegular/SourceSansPro-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

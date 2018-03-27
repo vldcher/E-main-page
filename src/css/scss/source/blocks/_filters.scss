@@ -1,0 +1,58 @@
+.filters-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: $filterSectionGrayColor;
+    height: 12rem;
+    font-family: $defaultFont;
+    
+
+    .filters {
+        display: flex;
+        align-items: center;
+
+        &__title {
+            
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-right: 1.5rem;
+            font-size: 1.5rem;
+            
+        }
+
+        &__work-type {
+            display: flex;
+            align-items: center;
+            margin-right: 1rem;
+            border: 1px solid #bbb;
+            padding: 0 1rem 0 1rem;
+            background: #fff;
+            font-style: italic;
+            font-size: 1rem;
+        }
+
+        &__content-type {
+            display: flex;
+            align-items: center;
+            border: 1px solid #bbb;
+            padding: 0 1rem 0 1rem;
+            background: #fff;
+            font-style: italic;
+            font-size: 1rem;
+        }
+        &-text {
+            margin-right: 5rem;
+        }
+    }
+    
+    
+}
+
+@media screen and (max-width: 768px){
+    .filters-container {
+        display: none;
+    }
+}
+

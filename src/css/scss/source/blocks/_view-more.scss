@@ -1,0 +1,28 @@
+.view-more {
+    text-align: center;
+    margin-top: 3rem;
+    
+    &__text {
+				text-transform: uppercase;
+				text-decoration: underline;
+				font-family: $defaultFont;
+				font-weight: bold;
+				letter-spacing: 2px;
+				font-size: 1.2rem;
+        color: $mainBlueColor;  
+		}
+
+		&__text:hover {
+			text-decoration: none;
+			cursor: pointer;
+			transition: all .5s ease;
+
+		}
+}
+
+
+@media screen and (max-width: 768px){
+	.view-more {
+		display: none;
+	}
+}
